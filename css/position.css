@@ -1,0 +1,15 @@
+img {
+    position: absolute;
+    top: 5px;
+    left: 1000px;
+    width: 400px;
+}
+*{
+    margin: 0;
+    padding:0;
+    
+}
+h1, p{
+  
+    width: 1000px;
+  }
