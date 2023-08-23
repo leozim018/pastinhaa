@@ -1,14 +1,14 @@
 body {
-    background-image: url(https://i.pinimg.com/736x/99/a5/13/99a513baf777e9fe554465a207e738c8.jpg)}
+    background-image: url(https://i.pinimg.com/736x/99/a5/13/99a513baf777e9fe554465a207e738c8.jpg);
 
-
+}
+   
 
 body, h1, p {
     margin: 0;
     padding: 0;
       }
   
-  /* Basic styling */
   body {
     font-family: Arial, sans-serif;
   }
@@ -22,26 +22,32 @@ body, h1, p {
   
   main {
     text-align: center;
-    padding: 20px;
-  }
+     }
   
   .logo {
     max-width: 100%;
-    height: auto;
-    animation: shake 5s infinite;
-    
+    animation: shake 5s ease-in 1;  
+    position: absolute; 
+    top: 25%;
+    left:40%;
     
   }
   
+  
+  
+
   @keyframes shake {
     0% {
-      transform: translateX(0);
+           transform: rotate(0);
+           top: 0;
+           left: 100%;
+               }
+    100% 
+    {
+      top: 25%;
+      left: 40%;
       transform: rotate(360deg);
-    };
-
-    100% {
-      transform: translateX(0);
-      transform: rotate(360deg);
+      
     }
   }
   
@@ -49,4 +55,9 @@ body, h1, p {
     text-align: center;
     padding: 10px;
     color: rgb(5, 4, 4);
+    animation: shake 5s ease-in 1;  
+    position: absolute; 
+    top: 85%;
+    left:40%;
+
   }
