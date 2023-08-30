@@ -16,7 +16,7 @@ body, h1, p {
   header {
     background-color: #3ba726;
     color: #FFF;
-    padding: 10px;
+    padding: 35px;
     text-align: center;
   }
   
@@ -53,11 +53,26 @@ body, h1, p {
   
   footer {
     text-align: center;
-    padding: 10px;
+    padding: 23px;
     color: rgb(5, 4, 4);
-    animation: shake 5s ease-in 1;  
+    animation: shake1 5s ease-in 1;  
     position: absolute; 
     top: 85%;
     left:40%;
 
   }
+  @keyframes shake1 {
+    0% {
+           transform: rotate(0);
+           top: 0;
+           left: 0%;
+               }
+    100% 
+    {
+      top: 85%;
+      left: 40%;
+      transform: rotate(360deg);
+      
+    }
+  }
+  

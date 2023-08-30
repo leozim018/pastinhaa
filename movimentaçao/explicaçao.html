@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>EXPLICAÇAO</h1>
+
+<br>
+<br>
+
+<li>Definindo a imagem de fundo:
+    <br>   css
+    <br>   Copy code
+    <br>  body {
+        <br>     background-image: url(https://i.pinimg.com/736x/99/a5/13/99a513baf777e9fe554465a207e738c8.jpg);
+        <br>   }
+    <br> Essa regra define uma imagem de fundo para o corpo do documento. A imagem é carregada a partir do URL especificado.</li>
+
+   <br>
+   <br>
+
+    <li>Definindo margens e preenchimento para alguns elementos:
+        <br>  css
+        <br>   Copy code
+        <br>   body, h1, p {
+            <br>     margin: 0;
+            <br>       padding: 0;
+            <br>  }
+        <br>  Essas regras definem margens e preenchimento zero para o corpo (body), títulos de nível 1 (h1) e parágrafos (p) no documento. Isso ajuda a remover espaçamento indesejado padrão aplicado pelo navegador.</li>
+
+    <br>
+    <br>
+
+     <li>Definindo a fonte padrão:
+        <br>  css
+        <br>    Copy code
+        <br>    body {
+            <br>       font-family: Arial, sans-serif;
+            <br> }
+        <br>    Essa regra define a fonte padrão para o corpo do documento como "Arial" e, se não estiver disponível, qualquer fonte sans-serif.</li>
+
+       <br>
+       <br>
+
+        <li>Estilizando o cabeçalho:
+            <br>    css
+            <br>     Copy code
+            <br>    header {
+                <br>   background-color: #3ba726;
+                <br>    color: #FFF;
+                <br>     padding: 25px;
+                <br>     text-align: center;
+                <br>  }
+            <br>  Essa regra define estilos para o elemento header. Ele terá um fundo verde (#3ba726), texto branco (#FFF), um preenchimento interno de 25 pixels e o texto centralizado.</li>
+
+        <br>
+        <br>
+
+    <li>Estilizando o conteúdo principal:
+        <br>    css
+        <br>   Copy code
+        <br>   main {
+            <br>      text-align: center;
+            <br> }
+        <br> Essa regra centraliza o texto no elemento main, que geralmente contém o conteúdo principal da página.</li>
+
+        <br>
+        <br>
+
+        <li>Estilizando o logo com animação:
+            <br>    css
+            <br>   Copy code
+            <br>   .logo {
+                <br>     max-width: 100%;
+                <br>     animation: shake 5s ease-in 1;  
+                <br>      position: absolute; 
+                <br>      top: 25%;
+                <br>     left: 40%;
+                <br>  }
+            <br>   Essa regra aplica estilos ao elemento com a classe .logo. Ele terá uma largura máxima de 100%, uma animação chamada shake que dura 5 segundos e inicia suavemente, e é posicionado absolutamente a 25% do topo e 40% da esquerda da janela.</li>
+
+           <br>
+           <br>
+
+         <li>Animação "shake" usando keyframes:
+            <br>      css
+            <br>     Copy code
+            <br>    @keyframes shake {
+                <br>     0% {
+                    <br>        transform: rotate(0);
+                    <br>       top: 0;
+                    <br>       left: 100%;
+                    <br> }
+                <br>     100% {
+                    <br>      top: 25%;
+                    <br>      left: 40%;
+                    <br>      transform: rotate(360deg);
+                    <br> }
+                    <br>  }
+            <br>   Essa regra define uma animação chamada shake usando keyframes. Ela faz o elemento animado girar 360 graus e se mover de uma posição inicial até 25% do topo e 40% da esquerda.</li>
+
+           <br>
+           <br>
+
+          <li>Estilizando o rodapé com animação:
+            <br>   css
+            <br> Copy code
+            <br>  footer {
+                <br>   text-align: center;
+                <br>  padding: 10px;
+                <br>   color: rgb(5, 4, 4);
+                <br>  animation: shake1 5s ease-in 1;  
+                <br>   position: absolute; 
+                <br>    top: 85%;
+            <br>    left: 40%;
+            <br>  }
+           <br> Essa regra aplica estilos ao elemento footer. Ele terá texto centralizado, um preenchimento interno de 10 pixels, cor de texto escura e uma animação chamada shake1 que dura 5 segundos e inicia suavemente. O rodapé é posicionado a 85% do topo e 40% da esquerda da janela.</li>
+
+            <br>
+            <br>
+
+             <li>Animação "shake1" usando keyframes:
+             <br>   css
+            <br>    Copy code
+                @keyframes shake1 { <br>
+                                       0% { <br>
+                                                                transform: rotate(0);
+                       <br> op: 0;
+                       <br> left: 0%;
+                       <br>     }
+                   <br> 100% {
+                        top: 85%;
+                     <br>   left: 40%;
+                    <br>    transform: rotate(360deg);
+                    <br>    }
+                    <br> }
+               <br> Essa regra define uma animação chamada shake1 usando keyframes. Ela faz o elemento animado girar 360 graus e se mover de uma posição inicial até 85% do topo e 40% da esquerda.</li>
+
+            <br>
+
+</body>
+</html>
